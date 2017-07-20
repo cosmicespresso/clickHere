@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "+/-",
+  "version": "0.1",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+  	"scripts": ["background.js"]
+  },
+  "browser_action": {
+	  "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery-3.2.1.min.js", "content.js"]
+    }
+  ]
+}
