@@ -4,14 +4,11 @@ chrome.runtime.onMessage.addListener(
 
       //grab first link
       var firstHref =  $("a:first")[0];
-      var firstH1 = $("h1:first")[0];
-      console.log(firstHref, firstH1);
 
       // Communicate with background.js
       chrome.runtime.sendMessage({
       	"message": "change_elements", 
-      	"url": firstHref, 
-      	"H1": firstH1
+      	"url": firstHref
       });
     }
   }
