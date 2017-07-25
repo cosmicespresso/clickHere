@@ -1,6 +1,20 @@
-/*h1 {
-	font-size: 100px !important;
-}*/
+@keyframes dizzyLink {
+  0% {
+    transform: rotate(0deg) !important;
+  }	
+  30% {
+    transform: rotate(45deg) !important;
+  }
+  60% {
+    transform: rotate(90deg) !important;
+  }
+  100% {
+    transform: rotate(0deg) !important;
+  }
+}
+
+
+
 body {
 	background-color: #fff !important;
 }
@@ -9,13 +23,15 @@ img, * > img, img > *, * > img > * {
 	opacity: 0 !important;
 }
 
-div, p, h1, h2, h3, h4, h5 {
+div, p, h1, h2, h3, h4, h5, span, ul, li, section  {
 	border: 1px solid !important;
 	border-radius: 4px;
 	background-image: none !important;
 }
 
-div > * {
+div > *, section > * {
+	border: 1px solid !important;
+	border-radius: 4px !important;
 	background-image: none !important; 
 	background-color: #fff !important;
 }
@@ -23,12 +39,37 @@ div > * {
 div::after {
 	background-image: none !important;
 	background-color: #fff !important;
-
 }
 
 div > * > a , div > a > * , div > * > a > *, * > a, * > a > * {	
 	/*font-size: 200px !important;*/
 	border: 1px solid red !important;
 	border-radius: 4px;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/BlackDot.svg/2000px-BlackDot.svg.png') center no-repeat !important;
+	background-color: red !important;
+	color: red !important;
+}
+
+/*div   {
+	 transition: 1s ease-in-out;
+}
+
+div:hover  {
+	transform: translate(10px,0);
+}*/
+
+button > * , *  > button , * > button > {	
+	/*font-size: 200px !important;*/
+	border: 1px solid red !important;
+	border-radius: 4px;
 	background: red !important;
+	color: red !important;
+}
+
+* > input , input > * , * > input > * {	
+	/*font-size: 200px !important;*/
+	border: 1px solid red !important;
+	border-radius: 4px;
+	background: red !important;
+	color: red  !important;
 }
