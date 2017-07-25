@@ -45,7 +45,7 @@ div > * > a , div > a > * , div > * > a > *, * > a, * > a > * {
 	/*font-size: 200px !important;*/
 	border: 1px solid red !important;
 	border-radius: 4px;
-	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/BlackDot.svg/2000px-BlackDot.svg.png') center no-repeat !important;
+	/*background-image: url('icon.png') center no-repeat !important;*/
 	background-color: red !important;
 	color: red !important;
 }
