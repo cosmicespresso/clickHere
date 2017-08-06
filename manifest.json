@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "description": "attention traps",
-  "name": "attention!",
+  "description": "attentional map",
+  "name": "CLICKHERE",
   "version": "0.1",
   "permissions": [
     "activeTab",
