@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "description": "attentional map",
-  "name": "clickhere Parsons ",
+  "description": "Turns the webpage into an attentional map.",
+  "name": "clickhere_Parsons",
   "version": "0.1",
   "permissions": [
     "activeTab",
@@ -12,12 +12,6 @@
   "background": {
   	"scripts": ["background.js"]
   },
-  "browser_action": {
-	  "default_icon": "icon.png"
-  },
-  "web_accessible_resources": [
-    "*.png"
-  ],
   "content_scripts": [
     {
       "matches": [
@@ -25,5 +19,11 @@
       ],
       "js": ["jquery-3.2.1.min.js", "content.js"]
     }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "web_accessible_resources": [
+    "*.png"
   ]
 }

@@ -25,22 +25,22 @@ div::after {
 }
 
 div > * > a , div > a > * , div > * > a > *, * > a, * > a > *, * > a > * > * {
-	border: 1px solid red !important;
+	border: 1px solid #ed5353 !important;
 	border-radius: 4px;
-	background-color: red !important;
-	color: red !important;
+	background-color: #ed5353 !important;
+	color: #ed5353 !important;
 }
 
 button > * , *  > button , * > button > {
-	border: 1px solid red !important;
+	border: 1px solid #ed5353 !important;
 	border-radius: 4px;
-	background: red !important;
-	color: red !important;
+	background: #ed5353 !important;
+	color: #ed5353 !important;
 }
 
 * > input , input > * , * > input > * {
-	border: 1px solid red !important;
+	border: 1px solid #ed5353 !important;
 	border-radius: 4px;
-	background: red !important;
-	color: red  !important;
+	background: #ed5353 !important;
+	color: #ed5353  !important;
 }
