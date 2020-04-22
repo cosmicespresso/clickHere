@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "description": "Turns the webpage into an attentional map.",
-  "name": "clickhere_Parsons",
+  "description": "Turn the webpage into an attentional map.",
+  "name": "clickHere",
   "version": "0.1",
   "permissions": [
     "activeTab",
